@@ -55,11 +55,11 @@ public class StudentController {
 
 	}
 	
-	/*@RequestMapping(value ="/clearCache", method = RequestMethod.GET)
+	@RequestMapping(value ="/clearCache", method = RequestMethod.GET)
 	public void clear() {
             studentService.clearCache();
 
-	}*/
+	}
 	
 	
 	
