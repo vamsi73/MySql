@@ -35,6 +35,7 @@ public class StudentController {
 	public void saveStudent(@RequestBody Student stu) {
 	     logger.info("saving daat into db{}",stu.getName());
 	     logger.debug("saving daat into db{}",stu.getName());
+	     logger.info("Added for testing purpose");
 		studentRepositry.save(stu);
 	}
 	
